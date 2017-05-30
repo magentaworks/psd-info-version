@@ -3,21 +3,6 @@ Drop here
 {
   "children": [
     {
-      "type": "layer",
-      "visible": true,
-      "opacity": 1,
-      "blendingMode": "normal",
-      "name": "@간격수정",
-      "left": 502,
-      "right": 1409,
-      "top": 646,
-      "bottom": 724,
-      "height": 78,
-      "width": 907,
-      "mask": {},
-      "image": {}
-    },
-    {
       "type": "group",
       "visible": true,
       "opacity": 1,
@@ -26,8 +11,8 @@ Drop here
       "left": 518,
       "right": 1901,
       "top": 18,
-      "bottom": 818,
-      "height": 800,
+      "bottom": 844,
+      "height": 826,
       "width": 1383,
       "children": [
         {
@@ -36,32 +21,32 @@ Drop here
           "opacity": 1,
           "blendingMode": "normal",
           "name": "head",
-          "left": 846,
-          "right": 1074,
-          "top": 194,
-          "bottom": 266,
-          "height": 72,
-          "width": 228,
+          "left": 518,
+          "right": 1402,
+          "top": 127,
+          "bottom": 232,
+          "height": 105,
+          "width": 884,
           "children": [
             {
               "type": "layer",
               "visible": true,
               "opacity": 1,
               "blendingMode": "normal",
-              "name": "ic_creatpg",
+              "name": "ic_page",
               "left": 944,
-              "right": 977,
-              "top": 194,
-              "bottom": 226,
-              "height": 32,
-              "width": 33,
+              "right": 976,
+              "top": 127,
+              "bottom": 153,
+              "height": 26,
+              "width": 32,
               "mask": {
-                "top": 194,
+                "top": 127,
                 "left": 944,
-                "bottom": 226,
-                "right": 977,
-                "width": 33,
-                "height": 32,
+                "bottom": 153,
+                "right": 976,
+                "width": 32,
+                "height": 26,
                 "defaultColor": 0,
                 "relative": false,
                 "disabled": false,
@@ -74,16 +59,16 @@ Drop here
               "visible": true,
               "opacity": 1,
               "blendingMode": "normal",
-              "name": "새로운 페이지/워크보드 만들기 ",
-              "left": 846,
-              "right": 1074,
-              "top": 247,
-              "bottom": 266,
-              "height": 19,
-              "width": 228,
+              "name": "페이지 상세정보",
+              "left": 901,
+              "right": 1020,
+              "top": 178,
+              "bottom": 195,
+              "height": 17,
+              "width": 119,
               "mask": {},
               "text": {
-                "value": "새로운 페이지/워크보드 만들기\r",
+                "value": "페이지 상세정보",
                 "font": {
                   "name": "SpoqaHanSans-Regular",
                   "sizes": [
@@ -105,7 +90,6 @@ Drop here
                     ]
                   ],
                   "alignment": [
-                    "center",
                     "center"
                   ]
                 },
@@ -119,7 +103,403 @@ Drop here
                   "yx": 0,
                   "yy": 1,
                   "tx": 961,
-                  "ty": 263
+                  "ty": 193
+                }
+              },
+              "image": {}
+            },
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "divider",
+              "left": 518,
+              "right": 1402,
+              "top": 228,
+              "bottom": 232,
+              "height": 4,
+              "width": 884,
+              "mask": {
+                "top": 228,
+                "left": 518,
+                "bottom": 232,
+                "right": 1402,
+                "width": 884,
+                "height": 4,
+                "defaultColor": 0,
+                "relative": false,
+                "disabled": false,
+                "invert": false
+              },
+              "image": {}
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "visible": true,
+          "opacity": 1,
+          "blendingMode": "normal",
+          "name": "btn_del",
+          "left": 521,
+          "right": 617,
+          "top": 258,
+          "bottom": 274,
+          "height": 16,
+          "width": 96,
+          "children": [
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "이 페이지 삭제",
+              "left": 542,
+              "right": 617,
+              "top": 260,
+              "bottom": 272,
+              "height": 12,
+              "width": 75,
+              "mask": {},
+              "text": {
+                "value": "이 페이지 삭제",
+                "font": {
+                  "name": "SpoqaHanSans-Regular",
+                  "sizes": [
+                    13,
+                    13
+                  ],
+                  "colors": [
+                    [
+                      112,
+                      123,
+                      129,
+                      255
+                    ],
+                    [
+                      112,
+                      123,
+                      129,
+                      255
+                    ]
+                  ],
+                  "alignment": [
+                    "left"
+                  ]
+                },
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "transform": {
+                  "xx": 1,
+                  "xy": 0,
+                  "yx": 0,
+                  "yy": 1,
+                  "tx": 540.94921875,
+                  "ty": 270.96875
+                }
+              },
+              "image": {}
+            },
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "ic_del",
+              "left": 521,
+              "right": 535,
+              "top": 258,
+              "bottom": 274,
+              "height": 16,
+              "width": 14,
+              "mask": {
+                "top": 258,
+                "left": 521,
+                "bottom": 274,
+                "right": 535,
+                "width": 14,
+                "height": 16,
+                "defaultColor": 0,
+                "relative": false,
+                "disabled": false,
+                "invert": false
+              },
+              "image": {}
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "visible": true,
+          "opacity": 1,
+          "blendingMode": "normal",
+          "name": "btn_fav",
+          "left": 638,
+          "right": 733,
+          "top": 258,
+          "bottom": 274,
+          "height": 16,
+          "width": 95,
+          "children": [
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "즐겨찾기 추가",
+              "left": 658,
+              "right": 733,
+              "top": 260,
+              "bottom": 272,
+              "height": 12,
+              "width": 75,
+              "mask": {},
+              "text": {
+                "value": "즐겨찾기 추가",
+                "font": {
+                  "name": "SpoqaHanSans-Regular",
+                  "sizes": [
+                    13,
+                    13
+                  ],
+                  "colors": [
+                    [
+                      112,
+                      123,
+                      129,
+                      255
+                    ],
+                    [
+                      112,
+                      123,
+                      129,
+                      255
+                    ]
+                  ],
+                  "alignment": [
+                    "left"
+                  ]
+                },
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "transform": {
+                  "xx": 1,
+                  "xy": 0,
+                  "yx": 0,
+                  "yy": 1,
+                  "tx": 657.94921875,
+                  "ty": 270.96875
+                }
+              },
+              "image": {}
+            },
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "ic_fav",
+              "left": 638,
+              "right": 653,
+              "top": 258,
+              "bottom": 274,
+              "height": 16,
+              "width": 15,
+              "mask": {
+                "top": 258,
+                "left": 638,
+                "bottom": 274,
+                "right": 653,
+                "width": 15,
+                "height": 16,
+                "defaultColor": 0,
+                "relative": false,
+                "disabled": false,
+                "invert": false
+              },
+              "image": {}
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "visible": true,
+          "opacity": 1,
+          "blendingMode": "normal",
+          "name": "내용입력",
+          "left": 520,
+          "right": 1400,
+          "top": 301,
+          "bottom": 565,
+          "height": 264,
+          "width": 880,
+          "children": [
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "새로운 페이지의 설명 입력 후 상태입니다.  글자간격 -25 줄간격 28 총 8줄이 표시되며 그 이상은 영역 내 ",
+              "left": 520,
+              "right": 1400,
+              "top": 354,
+              "bottom": 565,
+              "height": 211,
+              "width": 880,
+              "mask": {},
+              "text": {
+                "value": "새로운 페이지의 설명 입력 후 상태입니다. \r글자간격 -25 줄간격 28\r총 8줄이 표시되며 그 이상은 영역 내 스크롤이 생깁니다.\r국가는 지역간의 균형있는 발전을 위하여 지역경제를 육성할 의무를 진다. 정당은 법률이 정하는 바에 의하여 국가의 보호를 받으며, 국가는 법 률이 정하는 바에 의하여 정당운영에 필요한 자금을 보조할 수 있다. 국가는 국민 모두의 생산 및 생활의 기반이 되는 국토의 효율적이고 균형있 는 이용·개발과 보전을 위하여 법률이 정하는 바에 의하여 그에 관한 필요한 제한과 의무를 과할 수 있다.국가는 지역간의 균형있는 발전을 위하 여 지역경제를 육성할 의무를 진다. 정당은 법률이 정하는 바에 의하여 국가의 보호를 받으며, 국가는 법률이 정하는 바에 의하여 정당운영에 필 요한 자금을 보조할 수 있다. 국가는 국민 모두의 생산 및 생활의 기반이 되는 국토의 효율적이고 균형있는 이용·개발과 보전을 위하여 법률이 정하는 바에 의하여 그에 관한 필요한 제한과 의무를 과할 수 있다.",
+                "font": {
+                  "name": "SpoqaHanSans-Regular",
+                  "sizes": [
+                    16,
+                    16
+                  ],
+                  "colors": [
+                    [
+                      111,
+                      111,
+                      111,
+                      255
+                    ],
+                    [
+                      111,
+                      111,
+                      111,
+                      255
+                    ]
+                  ],
+                  "alignment": [
+                    "justify",
+                    "justify",
+                    "justify",
+                    "justify"
+                  ]
+                },
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "transform": {
+                  "xx": 1,
+                  "xy": 0,
+                  "yx": 0,
+                  "yy": 1,
+                  "tx": 520,
+                  "ty": 355
+                }
+              },
+              "image": {}
+            },
+            {
+              "type": "layer",
+              "visible": false,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "새로운 워크북의 설명을 입력해 주세요.",
+              "left": 520,
+              "right": 765,
+              "top": 354,
+              "bottom": 370,
+              "height": 16,
+              "width": 245,
+              "mask": {},
+              "text": {
+                "value": "새로운 워크북의 설명을 입력해 주세요.",
+                "font": {
+                  "name": "SpoqaHanSans-Regular",
+                  "sizes": [
+                    16,
+                    16
+                  ],
+                  "colors": [
+                    [
+                      175,
+                      179,
+                      183,
+                      255
+                    ],
+                    [
+                      175,
+                      179,
+                      183,
+                      255
+                    ]
+                  ],
+                  "alignment": [
+                    "left"
+                  ]
+                },
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "transform": {
+                  "xx": 1,
+                  "xy": 0,
+                  "yx": 0,
+                  "yy": 1,
+                  "tx": 520,
+                  "ty": 368
+                }
+              },
+              "image": {}
+            },
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "새로운 페이지 제목",
+              "left": 521,
+              "right": 731,
+              "top": 301,
+              "bottom": 326,
+              "height": 25,
+              "width": 210,
+              "mask": {},
+              "text": {
+                "value": "새로운 페이지 제목",
+                "font": {
+                  "name": "SpoqaHanSans-Thin",
+                  "sizes": [
+                    28,
+                    28
+                  ],
+                  "colors": [
+                    [
+                      34,
+                      34,
+                      34,
+                      255
+                    ],
+                    [
+                      34,
+                      34,
+                      34,
+                      255
+                    ]
+                  ],
+                  "alignment": [
+                    "left"
+                  ]
+                },
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "transform": {
+                  "xx": 1,
+                  "xy": 0,
+                  "yx": 0,
+                  "yy": 1,
+                  "tx": 520,
+                  "ty": 324
                 }
               },
               "image": {}
@@ -128,1547 +508,75 @@ Drop here
         },
         {
           "type": "group",
-          "visible": false,
+          "visible": true,
           "opacity": 1,
           "blendingMode": "normal",
-          "name": "02 workboard",
-          "left": 518,
-          "right": 1402,
-          "top": 301,
-          "bottom": 818,
-          "height": 517,
-          "width": 884,
+          "name": "tag",
+          "left": 521,
+          "right": 1389,
+          "top": 591,
+          "bottom": 752,
+          "height": 161,
+          "width": 868,
           "children": [
             {
               "type": "group",
-              "visible": true,
+              "visible": false,
               "opacity": 1,
               "blendingMode": "normal",
-              "name": "switch",
-              "left": 518,
-              "right": 1402,
-              "top": 301,
-              "bottom": 339,
-              "height": 38,
-              "width": 884,
-              "children": [
-                {
-                  "type": "layer",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "페이지            워크보드",
-                  "left": 899,
-                  "right": 1020,
-                  "top": 301,
-                  "bottom": 315,
-                  "height": 14,
-                  "width": 121,
-                  "mask": {},
-                  "text": {
-                    "value": "페이지            워크보드",
-                    "font": {
-                      "name": "SpoqaHanSans-Bold",
-                      "sizes": [
-                        14,
-                        14,
-                        14
-                      ],
-                      "colors": [
-                        [
-                          68,
-                          68,
-                          68,
-                          255
-                        ],
-                        [
-                          68,
-                          68,
-                          68,
-                          255
-                        ],
-                        [
-                          68,
-                          68,
-                          68,
-                          255
-                        ]
-                      ],
-                      "alignment": [
-                        "center"
-                      ]
-                    },
-                    "left": 0,
-                    "top": 0,
-                    "right": 0,
-                    "bottom": 0,
-                    "transform": {
-                      "xx": 1,
-                      "xy": 0,
-                      "yx": 0,
-                      "yy": 1,
-                      "tx": 959.90234375,
-                      "ty": 312.984375
-                    }
-                  },
-                  "image": {}
-                },
-                {
-                  "type": "layer",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "active",
-                  "left": 968,
-                  "right": 1023,
-                  "top": 332,
-                  "bottom": 339,
-                  "height": 7,
-                  "width": 55,
-                  "mask": {
-                    "top": 332,
-                    "left": 968,
-                    "bottom": 339,
-                    "right": 1023,
-                    "width": 55,
-                    "height": 7,
-                    "defaultColor": 0,
-                    "relative": false,
-                    "disabled": false,
-                    "invert": false
-                  },
-                  "image": {}
-                },
-                {
-                  "type": "layer",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "divider copy",
-                  "left": 518,
-                  "right": 1402,
-                  "top": 334,
-                  "bottom": 339,
-                  "height": 5,
-                  "width": 884,
-                  "mask": {
-                    "top": 334,
-                    "left": 518,
-                    "bottom": 339,
-                    "right": 1402,
-                    "width": 884,
-                    "height": 5,
-                    "defaultColor": 0,
-                    "relative": false,
-                    "disabled": false,
-                    "invert": false
-                  },
-                  "image": {}
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "visible": true,
-              "opacity": 1,
-              "blendingMode": "normal",
-              "name": "내용입력",
-              "left": 520,
-              "right": 1400,
-              "top": 367,
-              "bottom": 631,
-              "height": 264,
-              "width": 880,
-              "children": [
-                {
-                  "type": "layer",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "입력 후 상태입니다.  워크북과 동일합니다. 글자간격 -25 줄간격 28 총 8줄이 표시되며 그 이상은 영역 내 ",
-                  "left": 520,
-                  "right": 1400,
-                  "top": 420,
-                  "bottom": 631,
-                  "height": 211,
-                  "width": 880,
-                  "mask": {},
-                  "text": {
-                    "value": "입력 후 상태입니다.  워크북과 동일합니다.\r글자간격 -25 줄간격 28\r총 8줄이 표시되며 그 이상은 영역 내 스크롤이 생깁니다.\r국가는 지역간의 균형있는 발전을 위하여 지역경제를 육성할 의무를 진다. 정당은 법률이 정하는 바에 의하여 국가의 보호를 받으며, 국가는 법 률이 정하는 바에 의하여 정당운영에 필요한 자금을 보조할 수 있다. 국가는 국민 모두의 생산 및 생활의 기반이 되는 국토의 효율적이고 균형있 는 이용·개발과 보전을 위하여 법률이 정하는 바에 의하여 그에 관한 필요한 제한과 의무를 과할 수 있다.국가는 지역간의 균형있는 발전을 위하 여 지역경제를 육성할 의무를 진다. 정당은 법률이 정하는 바에 의하여 국가의 보호를 받으며, 국가는 법률이 정하는 바에 의하여 정당운영에 필 요한 자금을 보조할 수 있다. 국가는 국민 모두의 생산 및 생활의 기반이 되는 국토의 효율적이고 균형있는 이용·개발과 보전을 위하여 법률이 정하는 바에 의하여 그에 관한 필요한 제한과 의무를 과할 수 있다.",
-                    "font": {
-                      "name": "SpoqaHanSans-Regular",
-                      "sizes": [
-                        16,
-                        16
-                      ],
-                      "colors": [
-                        [
-                          111,
-                          111,
-                          111,
-                          255
-                        ],
-                        [
-                          111,
-                          111,
-                          111,
-                          255
-                        ]
-                      ],
-                      "alignment": [
-                        "justify",
-                        "justify",
-                        "justify",
-                        "justify"
-                      ]
-                    },
-                    "left": 0,
-                    "top": 0,
-                    "right": 0,
-                    "bottom": 0,
-                    "transform": {
-                      "xx": 1,
-                      "xy": 0,
-                      "yx": 0,
-                      "yy": 1,
-                      "tx": 520,
-                      "ty": 421
-                    }
-                  },
-                  "image": {}
-                },
-                {
-                  "type": "layer",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "워크보드 설명을 입력해 주세요.",
-                  "left": 520,
-                  "right": 719,
-                  "top": 420,
-                  "bottom": 436,
-                  "height": 16,
-                  "width": 199,
-                  "mask": {},
-                  "text": {
-                    "value": "워크보드 설명을 입력해 주세요.",
-                    "font": {
-                      "name": "SpoqaHanSans-Regular",
-                      "sizes": [
-                        16,
-                        16
-                      ],
-                      "colors": [
-                        [
-                          175,
-                          179,
-                          183,
-                          255
-                        ],
-                        [
-                          175,
-                          179,
-                          183,
-                          255
-                        ]
-                      ],
-                      "alignment": [
-                        "left"
-                      ]
-                    },
-                    "left": 0,
-                    "top": 0,
-                    "right": 0,
-                    "bottom": 0,
-                    "transform": {
-                      "xx": 1,
-                      "xy": 0,
-                      "yx": 0,
-                      "yy": 1,
-                      "tx": 520,
-                      "ty": 434
-                    }
-                  },
-                  "image": {}
-                },
-                {
-                  "type": "layer",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "새로운 워크보드 제목을 입력하세요.",
-                  "left": 521,
-                  "right": 917,
-                  "top": 367,
-                  "bottom": 392,
-                  "height": 25,
-                  "width": 396,
-                  "mask": {},
-                  "text": {
-                    "value": "새로운 워크보드 제목을 입력하세요.",
-                    "font": {
-                      "name": "SpoqaHanSans-Thin",
-                      "sizes": [
-                        28,
-                        28
-                      ],
-                      "colors": [
-                        [
-                          34,
-                          34,
-                          34,
-                          255
-                        ],
-                        [
-                          34,
-                          34,
-                          34,
-                          255
-                        ]
-                      ],
-                      "alignment": [
-                        "left"
-                      ]
-                    },
-                    "left": 0,
-                    "top": 0,
-                    "right": 0,
-                    "bottom": 0,
-                    "transform": {
-                      "xx": 1,
-                      "xy": 0,
-                      "yx": 0,
-                      "yy": 1,
-                      "tx": 520,
-                      "ty": 390
-                    }
-                  },
-                  "image": {}
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "visible": true,
-              "opacity": 1,
-              "blendingMode": "normal",
-              "name": "tag",
-              "left": 521,
+              "name": "작성중",
+              "left": 542,
               "right": 1389,
-              "top": 657,
-              "bottom": 818,
+              "top": 591,
+              "bottom": 752,
               "height": 161,
-              "width": 868,
+              "width": 847,
               "children": [
-                {
-                  "type": "group",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "작성중",
-                  "left": 542,
-                  "right": 1389,
-                  "top": 657,
-                  "bottom": 818,
-                  "height": 161,
-                  "width": 847,
-                  "children": [
-                    {
-                      "type": "group",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "2줄로 넘어간 경우",
-                      "left": 542,
-                      "right": 725,
-                      "top": 687,
-                      "bottom": 818,
-                      "height": 131,
-                      "width": 183,
-                      "children": [
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새",
-                          "left": 598,
-                          "right": 608,
-                          "top": 694,
-                          "bottom": 705,
-                          "height": 11,
-                          "width": 10,
-                          "mask": {},
-                          "text": {
-                            "value": "새",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 598,
-                              "ty": 704
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 548,
-                          "right": 583,
-                          "top": 694,
-                          "bottom": 705,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 548,
-                              "ty": 704
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "group",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "active",
-                          "left": 592,
-                          "right": 725,
-                          "top": 706,
-                          "bottom": 818,
-                          "height": 112,
-                          "width": 133,
-                          "children": [
-                            {
-                              "type": "group",
-                              "visible": true,
-                              "opacity": 1,
-                              "blendingMode": "normal",
-                              "name": "select",
-                              "left": 592,
-                              "right": 725,
-                              "top": 706,
-                              "bottom": 818,
-                              "height": 112,
-                              "width": 133,
-                              "children": [
-                                {
-                                  "type": "layer",
-                                  "visible": true,
-                                  "opacity": 1,
-                                  "blendingMode": "normal",
-                                  "name": "새폴더 새순 새장 새우",
-                                  "left": 603,
-                                  "right": 638,
-                                  "top": 721,
-                                  "bottom": 805,
-                                  "height": 84,
-                                  "width": 35,
-                                  "mask": {},
-                                  "text": {
-                                    "value": "새폴더\r새순\r새장\r새우",
-                                    "font": {
-                                      "name": "SpoqaHanSans-Regular",
-                                      "sizes": [
-                                        13,
-                                        13,
-                                        13,
-                                        13
-                                      ],
-                                      "colors": [
-                                        [
-                                          68,
-                                          68,
-                                          68,
-                                          255
-                                        ],
-                                        [
-                                          68,
-                                          68,
-                                          68,
-                                          255
-                                        ],
-                                        [
-                                          255,
-                                          255,
-                                          255,
-                                          255
-                                        ],
-                                        [
-                                          68,
-                                          68,
-                                          68,
-                                          255
-                                        ]
-                                      ],
-                                      "alignment": [
-                                        "left",
-                                        "left",
-                                        "left",
-                                        "left"
-                                      ]
-                                    },
-                                    "left": 0,
-                                    "top": 0,
-                                    "right": 0,
-                                    "bottom": 0,
-                                    "transform": {
-                                      "xx": 1,
-                                      "xy": 0,
-                                      "yx": 0,
-                                      "yy": 1,
-                                      "tx": 603,
-                                      "ty": 732
-                                    }
-                                  },
-                                  "image": {}
-                                },
-                                {
-                                  "type": "layer",
-                                  "visible": true,
-                                  "opacity": 1,
-                                  "blendingMode": "normal",
-                                  "name": "_hover",
-                                  "left": 593,
-                                  "right": 724,
-                                  "top": 738,
-                                  "bottom": 765,
-                                  "height": 27,
-                                  "width": 131,
-                                  "mask": {
-                                    "top": 738,
-                                    "left": 593,
-                                    "bottom": 765,
-                                    "right": 724,
-                                    "width": 131,
-                                    "height": 27,
-                                    "defaultColor": 0,
-                                    "relative": false,
-                                    "disabled": false,
-                                    "invert": false
-                                  },
-                                  "image": {}
-                                },
-                                {
-                                  "type": "layer",
-                                  "visible": true,
-                                  "opacity": 1,
-                                  "blendingMode": "normal",
-                                  "name": "bg",
-                                  "left": 592,
-                                  "right": 725,
-                                  "top": 706,
-                                  "bottom": 818,
-                                  "height": 112,
-                                  "width": 133,
-                                  "mask": {
-                                    "top": 706,
-                                    "left": 592,
-                                    "bottom": 818,
-                                    "right": 725,
-                                    "width": 133,
-                                    "height": 112,
-                                    "defaultColor": 0,
-                                    "relative": false,
-                                    "disabled": false,
-                                    "invert": false
-                                  },
-                                  "image": {}
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 542,
-                          "right": 616,
-                          "top": 687,
-                          "bottom": 711,
-                          "height": 24,
-                          "width": 74,
-                          "mask": {
-                            "top": 687,
-                            "left": 542,
-                            "bottom": 711,
-                            "right": 616,
-                            "width": 74,
-                            "height": 24,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "1",
-                      "left": 542,
-                      "right": 1389,
-                      "top": 657,
-                      "bottom": 682,
-                      "height": 25,
-                      "width": 847,
-                      "children": [
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의    ",
-                          "left": 698,
-                          "right": 1381,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 683,
-                          "mask": {},
-                          "text": {
-                            "value": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의      금액을      증가하거나      새 비목을      설치할      없다      법관은      헌법과       ",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 698,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 692,
-                          "right": 1389,
-                          "top": 657,
-                          "bottom": 682,
-                          "height": 25,
-                          "width": 697,
-                          "mask": {
-                            "top": 658,
-                            "left": 692,
-                            "bottom": 681,
-                            "right": 1389,
-                            "width": 697,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 648,
-                          "right": 683,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 648,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 642,
-                          "right": 691,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 49,
-                          "mask": {
-                            "top": 658,
-                            "left": 642,
-                            "bottom": 681,
-                            "right": 691,
-                            "width": 49,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 598,
-                          "right": 633,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 598,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 591,
-                          "right": 641,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 50,
-                          "mask": {
-                            "top": 658,
-                            "left": 591,
-                            "bottom": 681,
-                            "right": 641,
-                            "width": 50,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 548,
-                          "right": 583,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 548,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 542,
-                          "right": 591,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 49,
-                          "mask": {
-                            "top": 658,
-                            "left": 542,
-                            "bottom": 681,
-                            "right": 591,
-                            "width": 49,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
                 {
                   "type": "group",
                   "visible": true,
                   "opacity": 1,
                   "blendingMode": "normal",
-                  "name": "활성화",
+                  "name": "2줄로 넘어간 경우",
                   "left": 542,
-                  "right": 1389,
-                  "top": 658,
-                  "bottom": 711,
-                  "height": 53,
-                  "width": 847,
-                  "children": [
-                    {
-                      "type": "group",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "+",
-                      "left": 591,
-                      "right": 616,
-                      "top": 687,
-                      "bottom": 711,
-                      "height": 24,
-                      "width": 25,
-                      "children": [
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 26 copy",
-                          "left": 598,
-                          "right": 609,
-                          "top": 693,
-                          "bottom": 706,
-                          "height": 13,
-                          "width": 11,
-                          "mask": {
-                            "top": 693,
-                            "left": 598,
-                            "bottom": 706,
-                            "right": 609,
-                            "width": 11,
-                            "height": 13,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 591,
-                          "right": 616,
-                          "top": 687,
-                          "bottom": 711,
-                          "height": 24,
-                          "width": 25,
-                          "mask": {
-                            "top": 687,
-                            "left": 591,
-                            "bottom": 711,
-                            "right": 616,
-                            "width": 25,
-                            "height": 24,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "selected",
-                      "left": 542,
-                      "right": 591,
-                      "top": 687,
-                      "bottom": 711,
-                      "height": 24,
-                      "width": 49,
-                      "children": [
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 548,
-                          "right": 583,
-                          "top": 694,
-                          "bottom": 705,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  255,
-                                  255,
-                                  255,
-                                  255
-                                ],
-                                [
-                                  255,
-                                  255,
-                                  255,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 548,
-                              "ty": 704
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 542,
-                          "right": 591,
-                          "top": 687,
-                          "bottom": 711,
-                          "height": 24,
-                          "width": 49,
-                          "mask": {
-                            "top": 687,
-                            "left": 542,
-                            "bottom": 711,
-                            "right": 591,
-                            "width": 49,
-                            "height": 24,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "1",
-                      "left": 542,
-                      "right": 1389,
-                      "top": 658,
-                      "bottom": 681,
-                      "height": 23,
-                      "width": 847,
-                      "children": [
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의    ",
-                          "left": 698,
-                          "right": 1381,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 683,
-                          "mask": {},
-                          "text": {
-                            "value": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의      금액을      증가하거나      새 비목을      설치할      없다      법관은      헌법과       ",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 698,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 692,
-                          "right": 1389,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 697,
-                          "mask": {
-                            "top": 658,
-                            "left": 692,
-                            "bottom": 681,
-                            "right": 1389,
-                            "width": 697,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 648,
-                          "right": 683,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 648,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 642,
-                          "right": 691,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 49,
-                          "mask": {
-                            "top": 658,
-                            "left": 642,
-                            "bottom": 681,
-                            "right": 691,
-                            "width": 49,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 598,
-                          "right": 633,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 598,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 591,
-                          "right": 641,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 50,
-                          "mask": {
-                            "top": 658,
-                            "left": 591,
-                            "bottom": 681,
-                            "right": 641,
-                            "width": 50,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 548,
-                          "right": 583,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 548,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 542,
-                          "right": 591,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 49,
-                          "mask": {
-                            "top": 658,
-                            "left": 542,
-                            "bottom": 681,
-                            "right": 591,
-                            "width": 49,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "default",
-                  "left": 543,
-                  "right": 612,
-                  "top": 662,
-                  "bottom": 675,
-                  "height": 13,
-                  "width": 69,
+                  "right": 725,
+                  "top": 621,
+                  "bottom": 752,
+                  "height": 131,
+                  "width": 183,
                   "children": [
                     {
                       "type": "layer",
                       "visible": true,
                       "opacity": 1,
                       "blendingMode": "normal",
-                      "name": "새 태그 추가",
-                      "left": 543,
-                      "right": 612,
-                      "top": 662,
-                      "bottom": 675,
-                      "height": 13,
-                      "width": 69,
+                      "name": "새",
+                      "left": 598,
+                      "right": 608,
+                      "top": 628,
+                      "bottom": 639,
+                      "height": 11,
+                      "width": 10,
                       "mask": {},
                       "text": {
-                        "value": "새 태그 추가",
+                        "value": "새",
                         "font": {
                           "name": "SpoqaHanSans-Regular",
                           "sizes": [
-                            14,
-                            14
+                            12,
+                            12
                           ],
                           "colors": [
                             [
-                              156,
-                              156,
-                              156,
+                              82,
+                              97,
+                              105,
                               255
                             ],
                             [
-                              156,
-                              156,
-                              156,
+                              82,
+                              97,
+                              105,
                               255
                             ]
                           ],
@@ -1685,33 +593,1977 @@ Drop here
                           "xy": 0,
                           "yx": 0,
                           "yy": 1,
-                          "tx": 543,
-                          "ty": 674
+                          "tx": 598,
+                          "ty": 638
                         }
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "새 태그",
+                      "left": 548,
+                      "right": 583,
+                      "top": 628,
+                      "bottom": 639,
+                      "height": 11,
+                      "width": 35,
+                      "mask": {},
+                      "text": {
+                        "value": "새 태그",
+                        "font": {
+                          "name": "SpoqaHanSans-Regular",
+                          "sizes": [
+                            12,
+                            12
+                          ],
+                          "colors": [
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ],
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ]
+                          ],
+                          "alignment": [
+                            "left"
+                          ]
+                        },
+                        "left": 0,
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "transform": {
+                          "xx": 1,
+                          "xy": 0,
+                          "yx": 0,
+                          "yy": 1,
+                          "tx": 548,
+                          "ty": 638
+                        }
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "group",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "active",
+                      "left": 592,
+                      "right": 725,
+                      "top": 640,
+                      "bottom": 752,
+                      "height": 112,
+                      "width": 133,
+                      "children": [
+                        {
+                          "type": "group",
+                          "visible": true,
+                          "opacity": 1,
+                          "blendingMode": "normal",
+                          "name": "select",
+                          "left": 592,
+                          "right": 725,
+                          "top": 640,
+                          "bottom": 752,
+                          "height": 112,
+                          "width": 133,
+                          "children": [
+                            {
+                              "type": "layer",
+                              "visible": true,
+                              "opacity": 1,
+                              "blendingMode": "normal",
+                              "name": "새폴더 새순 새장 새우",
+                              "left": 603,
+                              "right": 638,
+                              "top": 655,
+                              "bottom": 739,
+                              "height": 84,
+                              "width": 35,
+                              "mask": {},
+                              "text": {
+                                "value": "새폴더\r새순\r새장\r새우",
+                                "font": {
+                                  "name": "SpoqaHanSans-Regular",
+                                  "sizes": [
+                                    13,
+                                    13,
+                                    13,
+                                    13
+                                  ],
+                                  "colors": [
+                                    [
+                                      68,
+                                      68,
+                                      68,
+                                      255
+                                    ],
+                                    [
+                                      68,
+                                      68,
+                                      68,
+                                      255
+                                    ],
+                                    [
+                                      255,
+                                      255,
+                                      255,
+                                      255
+                                    ],
+                                    [
+                                      68,
+                                      68,
+                                      68,
+                                      255
+                                    ]
+                                  ],
+                                  "alignment": [
+                                    "left",
+                                    "left",
+                                    "left",
+                                    "left"
+                                  ]
+                                },
+                                "left": 0,
+                                "top": 0,
+                                "right": 0,
+                                "bottom": 0,
+                                "transform": {
+                                  "xx": 1,
+                                  "xy": 0,
+                                  "yx": 0,
+                                  "yy": 1,
+                                  "tx": 603,
+                                  "ty": 666
+                                }
+                              },
+                              "image": {}
+                            },
+                            {
+                              "type": "layer",
+                              "visible": true,
+                              "opacity": 1,
+                              "blendingMode": "normal",
+                              "name": "_hover",
+                              "left": 593,
+                              "right": 724,
+                              "top": 672,
+                              "bottom": 699,
+                              "height": 27,
+                              "width": 131,
+                              "mask": {
+                                "top": 672,
+                                "left": 593,
+                                "bottom": 699,
+                                "right": 724,
+                                "width": 131,
+                                "height": 27,
+                                "defaultColor": 0,
+                                "relative": false,
+                                "disabled": false,
+                                "invert": false
+                              },
+                              "image": {}
+                            },
+                            {
+                              "type": "layer",
+                              "visible": true,
+                              "opacity": 1,
+                              "blendingMode": "normal",
+                              "name": "bg",
+                              "left": 592,
+                              "right": 725,
+                              "top": 640,
+                              "bottom": 752,
+                              "height": 112,
+                              "width": 133,
+                              "mask": {
+                                "top": 640,
+                                "left": 592,
+                                "bottom": 752,
+                                "right": 725,
+                                "width": 133,
+                                "height": 112,
+                                "defaultColor": 0,
+                                "relative": false,
+                                "disabled": false,
+                                "invert": false
+                              },
+                              "image": {}
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 40",
+                      "left": 542,
+                      "right": 616,
+                      "top": 621,
+                      "bottom": 645,
+                      "height": 24,
+                      "width": 74,
+                      "mask": {
+                        "top": 621,
+                        "left": 542,
+                        "bottom": 645,
+                        "right": 616,
+                        "width": 74,
+                        "height": 24,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
                       },
                       "image": {}
                     }
                   ]
                 },
                 {
+                  "type": "group",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendingMode": "normal",
+                  "name": "1",
+                  "left": 542,
+                  "right": 1389,
+                  "top": 591,
+                  "bottom": 616,
+                  "height": 25,
+                  "width": 847,
+                  "children": [
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의    ",
+                      "left": 698,
+                      "right": 1381,
+                      "top": 598,
+                      "bottom": 609,
+                      "height": 11,
+                      "width": 683,
+                      "mask": {},
+                      "text": {
+                        "value": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의      금액을      증가하거나      새 비목을      설치할      없다      법관은      헌법과       ",
+                        "font": {
+                          "name": "SpoqaHanSans-Regular",
+                          "sizes": [
+                            12,
+                            12
+                          ],
+                          "colors": [
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ],
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ]
+                          ],
+                          "alignment": [
+                            "left"
+                          ]
+                        },
+                        "left": 0,
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "transform": {
+                          "xx": 1,
+                          "xy": 0,
+                          "yx": 0,
+                          "yy": 1,
+                          "tx": 698,
+                          "ty": 608
+                        }
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 40",
+                      "left": 691,
+                      "right": 1389,
+                      "top": 591,
+                      "bottom": 616,
+                      "height": 25,
+                      "width": 698,
+                      "mask": {
+                        "top": 592,
+                        "left": 692,
+                        "bottom": 615,
+                        "right": 1388,
+                        "width": 696,
+                        "height": 23,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "새 태그",
+                      "left": 648,
+                      "right": 683,
+                      "top": 598,
+                      "bottom": 609,
+                      "height": 11,
+                      "width": 35,
+                      "mask": {},
+                      "text": {
+                        "value": "새 태그",
+                        "font": {
+                          "name": "SpoqaHanSans-Regular",
+                          "sizes": [
+                            12,
+                            12
+                          ],
+                          "colors": [
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ],
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ]
+                          ],
+                          "alignment": [
+                            "left"
+                          ]
+                        },
+                        "left": 0,
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "transform": {
+                          "xx": 1,
+                          "xy": 0,
+                          "yx": 0,
+                          "yy": 1,
+                          "tx": 648,
+                          "ty": 608
+                        }
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 40",
+                      "left": 641,
+                      "right": 690,
+                      "top": 592,
+                      "bottom": 615,
+                      "height": 23,
+                      "width": 49,
+                      "mask": {
+                        "top": 592,
+                        "left": 641,
+                        "bottom": 615,
+                        "right": 690,
+                        "width": 49,
+                        "height": 23,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "새 태그",
+                      "left": 598,
+                      "right": 633,
+                      "top": 598,
+                      "bottom": 609,
+                      "height": 11,
+                      "width": 35,
+                      "mask": {},
+                      "text": {
+                        "value": "새 태그",
+                        "font": {
+                          "name": "SpoqaHanSans-Regular",
+                          "sizes": [
+                            12,
+                            12
+                          ],
+                          "colors": [
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ],
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ]
+                          ],
+                          "alignment": [
+                            "left"
+                          ]
+                        },
+                        "left": 0,
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "transform": {
+                          "xx": 1,
+                          "xy": 0,
+                          "yx": 0,
+                          "yy": 1,
+                          "tx": 598,
+                          "ty": 608
+                        }
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 40",
+                      "left": 591,
+                      "right": 641,
+                      "top": 592,
+                      "bottom": 615,
+                      "height": 23,
+                      "width": 50,
+                      "mask": {
+                        "top": 592,
+                        "left": 591,
+                        "bottom": 615,
+                        "right": 641,
+                        "width": 50,
+                        "height": 23,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "새 태그",
+                      "left": 548,
+                      "right": 583,
+                      "top": 598,
+                      "bottom": 609,
+                      "height": 11,
+                      "width": 35,
+                      "mask": {},
+                      "text": {
+                        "value": "새 태그",
+                        "font": {
+                          "name": "SpoqaHanSans-Regular",
+                          "sizes": [
+                            12,
+                            12
+                          ],
+                          "colors": [
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ],
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ]
+                          ],
+                          "alignment": [
+                            "left"
+                          ]
+                        },
+                        "left": 0,
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "transform": {
+                          "xx": 1,
+                          "xy": 0,
+                          "yx": 0,
+                          "yy": 1,
+                          "tx": 548,
+                          "ty": 608
+                        }
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 40",
+                      "left": 542,
+                      "right": 591,
+                      "top": 592,
+                      "bottom": 615,
+                      "height": 23,
+                      "width": 49,
+                      "mask": {
+                        "top": 592,
+                        "left": 542,
+                        "bottom": 615,
+                        "right": 591,
+                        "width": 49,
+                        "height": 23,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
+                      },
+                      "image": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "활성화",
+              "left": 542,
+              "right": 1388,
+              "top": 592,
+              "bottom": 645,
+              "height": 53,
+              "width": 846,
+              "children": [
+                {
+                  "type": "group",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendingMode": "normal",
+                  "name": "+",
+                  "left": 591,
+                  "right": 615,
+                  "top": 621,
+                  "bottom": 645,
+                  "height": 24,
+                  "width": 24,
+                  "children": [
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 26 copy",
+                      "left": 597,
+                      "right": 609,
+                      "top": 627,
+                      "bottom": 640,
+                      "height": 13,
+                      "width": 12,
+                      "mask": {
+                        "top": 627,
+                        "left": 597,
+                        "bottom": 640,
+                        "right": 609,
+                        "width": 12,
+                        "height": 13,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 40",
+                      "left": 591,
+                      "right": 615,
+                      "top": 621,
+                      "bottom": 645,
+                      "height": 24,
+                      "width": 24,
+                      "mask": {
+                        "top": 621,
+                        "left": 591,
+                        "bottom": 645,
+                        "right": 615,
+                        "width": 24,
+                        "height": 24,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
+                      },
+                      "image": {}
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendingMode": "normal",
+                  "name": "selected",
+                  "left": 542,
+                  "right": 591,
+                  "top": 621,
+                  "bottom": 645,
+                  "height": 24,
+                  "width": 49,
+                  "children": [
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "새 태그",
+                      "left": 548,
+                      "right": 583,
+                      "top": 628,
+                      "bottom": 639,
+                      "height": 11,
+                      "width": 35,
+                      "mask": {},
+                      "text": {
+                        "value": "새 태그",
+                        "font": {
+                          "name": "SpoqaHanSans-Regular",
+                          "sizes": [
+                            12,
+                            12
+                          ],
+                          "colors": [
+                            [
+                              255,
+                              255,
+                              255,
+                              255
+                            ],
+                            [
+                              255,
+                              255,
+                              255,
+                              255
+                            ]
+                          ],
+                          "alignment": [
+                            "left"
+                          ]
+                        },
+                        "left": 0,
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "transform": {
+                          "xx": 1,
+                          "xy": 0,
+                          "yx": 0,
+                          "yy": 1,
+                          "tx": 548,
+                          "ty": 638
+                        }
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 40",
+                      "left": 542,
+                      "right": 591,
+                      "top": 621,
+                      "bottom": 645,
+                      "height": 24,
+                      "width": 49,
+                      "mask": {
+                        "top": 621,
+                        "left": 542,
+                        "bottom": 645,
+                        "right": 591,
+                        "width": 49,
+                        "height": 24,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
+                      },
+                      "image": {}
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendingMode": "normal",
+                  "name": "1",
+                  "left": 542,
+                  "right": 1388,
+                  "top": 592,
+                  "bottom": 615,
+                  "height": 23,
+                  "width": 846,
+                  "children": [
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의    ",
+                      "left": 698,
+                      "right": 1381,
+                      "top": 598,
+                      "bottom": 609,
+                      "height": 11,
+                      "width": 683,
+                      "mask": {},
+                      "text": {
+                        "value": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의      금액을      증가하거나      새 비목을      설치할      없다      법관은      헌법과       ",
+                        "font": {
+                          "name": "SpoqaHanSans-Regular",
+                          "sizes": [
+                            12,
+                            12
+                          ],
+                          "colors": [
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ],
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ]
+                          ],
+                          "alignment": [
+                            "left"
+                          ]
+                        },
+                        "left": 0,
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "transform": {
+                          "xx": 1,
+                          "xy": 0,
+                          "yx": 0,
+                          "yy": 1,
+                          "tx": 698,
+                          "ty": 608
+                        }
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 40",
+                      "left": 692,
+                      "right": 1388,
+                      "top": 592,
+                      "bottom": 615,
+                      "height": 23,
+                      "width": 696,
+                      "mask": {
+                        "top": 592,
+                        "left": 692,
+                        "bottom": 615,
+                        "right": 1388,
+                        "width": 696,
+                        "height": 23,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "새 태그",
+                      "left": 648,
+                      "right": 683,
+                      "top": 598,
+                      "bottom": 609,
+                      "height": 11,
+                      "width": 35,
+                      "mask": {},
+                      "text": {
+                        "value": "새 태그",
+                        "font": {
+                          "name": "SpoqaHanSans-Regular",
+                          "sizes": [
+                            12,
+                            12
+                          ],
+                          "colors": [
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ],
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ]
+                          ],
+                          "alignment": [
+                            "left"
+                          ]
+                        },
+                        "left": 0,
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "transform": {
+                          "xx": 1,
+                          "xy": 0,
+                          "yx": 0,
+                          "yy": 1,
+                          "tx": 648,
+                          "ty": 608
+                        }
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 40",
+                      "left": 641,
+                      "right": 690,
+                      "top": 592,
+                      "bottom": 615,
+                      "height": 23,
+                      "width": 49,
+                      "mask": {
+                        "top": 592,
+                        "left": 641,
+                        "bottom": 615,
+                        "right": 690,
+                        "width": 49,
+                        "height": 23,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "새 태그",
+                      "left": 598,
+                      "right": 633,
+                      "top": 598,
+                      "bottom": 609,
+                      "height": 11,
+                      "width": 35,
+                      "mask": {},
+                      "text": {
+                        "value": "새 태그",
+                        "font": {
+                          "name": "SpoqaHanSans-Regular",
+                          "sizes": [
+                            12,
+                            12
+                          ],
+                          "colors": [
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ],
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ]
+                          ],
+                          "alignment": [
+                            "left"
+                          ]
+                        },
+                        "left": 0,
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "transform": {
+                          "xx": 1,
+                          "xy": 0,
+                          "yx": 0,
+                          "yy": 1,
+                          "tx": 598,
+                          "ty": 608
+                        }
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 40",
+                      "left": 591,
+                      "right": 641,
+                      "top": 592,
+                      "bottom": 615,
+                      "height": 23,
+                      "width": 50,
+                      "mask": {
+                        "top": 592,
+                        "left": 591,
+                        "bottom": 615,
+                        "right": 641,
+                        "width": 50,
+                        "height": 23,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "새 태그",
+                      "left": 548,
+                      "right": 583,
+                      "top": 598,
+                      "bottom": 609,
+                      "height": 11,
+                      "width": 35,
+                      "mask": {},
+                      "text": {
+                        "value": "새 태그",
+                        "font": {
+                          "name": "SpoqaHanSans-Regular",
+                          "sizes": [
+                            12,
+                            12
+                          ],
+                          "colors": [
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ],
+                            [
+                              82,
+                              97,
+                              105,
+                              255
+                            ]
+                          ],
+                          "alignment": [
+                            "left"
+                          ]
+                        },
+                        "left": 0,
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "transform": {
+                          "xx": 1,
+                          "xy": 0,
+                          "yx": 0,
+                          "yy": 1,
+                          "tx": 548,
+                          "ty": 608
+                        }
+                      },
+                      "image": {}
+                    },
+                    {
+                      "type": "layer",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendingMode": "normal",
+                      "name": "Rounded Rectangle 40",
+                      "left": 542,
+                      "right": 591,
+                      "top": 592,
+                      "bottom": 615,
+                      "height": 23,
+                      "width": 49,
+                      "mask": {
+                        "top": 592,
+                        "left": 542,
+                        "bottom": 615,
+                        "right": 591,
+                        "width": 49,
+                        "height": 23,
+                        "defaultColor": 0,
+                        "relative": false,
+                        "disabled": false,
+                        "invert": false
+                      },
+                      "image": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "visible": false,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "default",
+              "left": 543,
+              "right": 612,
+              "top": 596,
+              "bottom": 609,
+              "height": 13,
+              "width": 69,
+              "children": [
+                {
                   "type": "layer",
                   "visible": true,
                   "opacity": 1,
                   "blendingMode": "normal",
-                  "name": "ic_tag",
-                  "left": 521,
-                  "right": 535,
-                  "top": 660,
-                  "bottom": 677,
-                  "height": 17,
-                  "width": 14,
+                  "name": "새 태그 추가",
+                  "left": 543,
+                  "right": 612,
+                  "top": 596,
+                  "bottom": 609,
+                  "height": 13,
+                  "width": 69,
+                  "mask": {},
+                  "text": {
+                    "value": "새 태그 추가",
+                    "font": {
+                      "name": "SpoqaHanSans-Regular",
+                      "sizes": [
+                        14,
+                        14
+                      ],
+                      "colors": [
+                        [
+                          156,
+                          156,
+                          156,
+                          255
+                        ],
+                        [
+                          156,
+                          156,
+                          156,
+                          255
+                        ]
+                      ],
+                      "alignment": [
+                        "left"
+                      ]
+                    },
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "transform": {
+                      "xx": 1,
+                      "xy": 0,
+                      "yx": 0,
+                      "yy": 1,
+                      "tx": 543,
+                      "ty": 608
+                    }
+                  },
+                  "image": {}
+                }
+              ]
+            },
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "ic_tag",
+              "left": 521,
+              "right": 535,
+              "top": 594,
+              "bottom": 611,
+              "height": 17,
+              "width": 14,
+              "mask": {
+                "top": 594,
+                "left": 521,
+                "bottom": 611,
+                "right": 535,
+                "width": 14,
+                "height": 17,
+                "defaultColor": 0,
+                "relative": false,
+                "disabled": false,
+                "invert": false
+              },
+              "image": {}
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "visible": true,
+          "opacity": 1,
+          "blendingMode": "normal",
+          "name": "overview",
+          "left": 521,
+          "right": 1314,
+          "top": 690,
+          "bottom": 739,
+          "height": 49,
+          "width": 793,
+          "children": [
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "2016년 1월 5일 화요일,  오후 4:20 ",
+              "left": 1112,
+              "right": 1314,
+              "top": 726,
+              "bottom": 739,
+              "height": 13,
+              "width": 202,
+              "mask": {},
+              "text": {
+                "value": "2016년 1월 5일 화요일,  오후 4:20\r",
+                "font": {
+                  "name": "SpoqaHanSans-Regular",
+                  "sizes": [
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14
+                  ],
+                  "colors": [
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ]
+                  ],
+                  "alignment": [
+                    "left",
+                    "left"
+                  ]
+                },
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "transform": {
+                  "xx": 1,
+                  "xy": 0,
+                  "yx": 0,
+                  "yy": 1,
+                  "tx": 1111.484375,
+                  "ty": 738.0625
+                }
+              },
+              "image": {}
+            },
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "최근 수정",
+              "left": 965,
+              "right": 1018,
+              "top": 726,
+              "bottom": 739,
+              "height": 13,
+              "width": 53,
+              "mask": {},
+              "text": {
+                "value": "최근 수정",
+                "font": {
+                  "name": "SpoqaHanSans-Regular",
+                  "sizes": [
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14
+                  ],
+                  "colors": [
+                    [
+                      82,
+                      97,
+                      105,
+                      255
+                    ],
+                    [
+                      82,
+                      97,
+                      105,
+                      255
+                    ],
+                    [
+                      82,
+                      97,
+                      105,
+                      255
+                    ],
+                    [
+                      82,
+                      97,
+                      105,
+                      255
+                    ],
+                    [
+                      82,
+                      97,
+                      105,
+                      255
+                    ],
+                    [
+                      82,
+                      97,
+                      105,
+                      255
+                    ]
+                  ],
+                  "alignment": [
+                    "left"
+                  ]
+                },
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "transform": {
+                  "xx": 1,
+                  "xy": 0,
+                  "yx": 0,
+                  "yy": 1,
+                  "tx": 964.484375,
+                  "ty": 738.0625
+                }
+              },
+              "image": {}
+            },
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "2015년 9월 10일 목요일,  오후 4:20",
+              "left": 668,
+              "right": 879,
+              "top": 726,
+              "bottom": 739,
+              "height": 13,
+              "width": 211,
+              "mask": {},
+              "text": {
+                "value": "2015년 9월 10일 목요일,  오후 4:20",
+                "font": {
+                  "name": "SpoqaHanSans-Regular",
+                  "sizes": [
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14
+                  ],
+                  "colors": [
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ]
+                  ],
+                  "alignment": [
+                    "left"
+                  ]
+                },
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "transform": {
+                  "xx": 1,
+                  "xy": 0,
+                  "yx": 0,
+                  "yy": 1,
+                  "tx": 667.484375,
+                  "ty": 738.0625
+                }
+              },
+              "image": {}
+            },
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "생성일",
+              "left": 521,
+              "right": 558,
+              "top": 726,
+              "bottom": 739,
+              "height": 13,
+              "width": 37,
+              "mask": {},
+              "text": {
+                "value": "생성일",
+                "font": {
+                  "name": "SpoqaHanSans-Regular",
+                  "sizes": [
+                    14,
+                    14,
+                    14,
+                    14
+                  ],
+                  "colors": [
+                    [
+                      82,
+                      97,
+                      105,
+                      255
+                    ],
+                    [
+                      82,
+                      97,
+                      105,
+                      255
+                    ],
+                    [
+                      82,
+                      97,
+                      105,
+                      255
+                    ],
+                    [
+                      82,
+                      97,
+                      105,
+                      255
+                    ]
+                  ],
+                  "alignment": [
+                    "left"
+                  ]
+                },
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "transform": {
+                  "xx": 1,
+                  "xy": 0,
+                  "yx": 0,
+                  "yy": 1,
+                  "tx": 520.484375,
+                  "ty": 738.0625
+                }
+              },
+              "image": {}
+            },
+            {
+              "type": "layer",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "요약",
+              "left": 521,
+              "right": 544,
+              "top": 690,
+              "bottom": 703,
+              "height": 13,
+              "width": 23,
+              "mask": {},
+              "text": {
+                "value": "요약",
+                "font": {
+                  "name": "SpoqaHanSans-Bold",
+                  "sizes": [
+                    13,
+                    13,
+                    13
+                  ],
+                  "colors": [
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ],
+                    [
+                      68,
+                      68,
+                      68,
+                      255
+                    ]
+                  ],
+                  "alignment": [
+                    "left"
+                  ]
+                },
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "transform": {
+                  "xx": 1,
+                  "xy": 0,
+                  "yx": 0,
+                  "yy": 1,
+                  "tx": 520.484375,
+                  "ty": 701.0625
+                }
+              },
+              "image": {}
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "visible": true,
+          "opacity": 1,
+          "blendingMode": "normal",
+          "name": "btn_prev",
+          "left": 728,
+          "right": 959,
+          "top": 802,
+          "bottom": 844,
+          "height": 42,
+          "width": 231,
+          "children": [
+            {
+              "type": "group",
+              "visible": false,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "_hover",
+              "left": 728,
+              "right": 959,
+              "top": 802,
+              "bottom": 844,
+              "height": 42,
+              "width": 231,
+              "children": [
+                {
+                  "type": "layer",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendingMode": "normal",
+                  "name": "취소",
+                  "left": 832,
+                  "right": 858,
+                  "top": 816,
+                  "bottom": 829,
+                  "height": 13,
+                  "width": 26,
+                  "mask": {},
+                  "text": {
+                    "value": "취소",
+                    "font": {
+                      "name": "SpoqaHanSans-Regular",
+                      "sizes": [
+                        14,
+                        14
+                      ],
+                      "colors": [
+                        [
+                          112,
+                          112,
+                          112,
+                          255
+                        ],
+                        [
+                          112,
+                          112,
+                          112,
+                          255
+                        ]
+                      ],
+                      "alignment": [
+                        "center"
+                      ]
+                    },
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "transform": {
+                      "xx": 1,
+                      "xy": 0,
+                      "yx": 0,
+                      "yy": 1,
+                      "tx": 845,
+                      "ty": 828
+                    }
+                  },
+                  "image": {}
+                },
+                {
+                  "type": "layer",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendingMode": "normal",
+                  "name": "Rounded Rectangle 40 copy",
+                  "left": 728,
+                  "right": 959,
+                  "top": 802,
+                  "bottom": 844,
+                  "height": 42,
+                  "width": 231,
                   "mask": {
-                    "top": 660,
-                    "left": 521,
-                    "bottom": 677,
-                    "right": 535,
-                    "width": 14,
-                    "height": 17,
+                    "top": 802,
+                    "left": 728,
+                    "bottom": 844,
+                    "right": 959,
+                    "width": 231,
+                    "height": 42,
                     "defaultColor": 0,
                     "relative": false,
                     "disabled": false,
@@ -1726,503 +2578,93 @@ Drop here
               "visible": true,
               "opacity": 1,
               "blendingMode": "normal",
-              "name": "btn_prev",
+              "name": "_normal",
               "left": 728,
               "right": 959,
-              "top": 745,
-              "bottom": 787,
+              "top": 802,
+              "bottom": 844,
               "height": 42,
               "width": 231,
               "children": [
                 {
-                  "type": "group",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "_hover",
-                  "left": 728,
-                  "right": 959,
-                  "top": 745,
-                  "bottom": 787,
-                  "height": 42,
-                  "width": 231,
-                  "children": [
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "취소",
-                      "left": 832,
-                      "right": 858,
-                      "top": 759,
-                      "bottom": 772,
-                      "height": 13,
-                      "width": 26,
-                      "mask": {},
-                      "text": {
-                        "value": "취소",
-                        "font": {
-                          "name": "SpoqaHanSans-Regular",
-                          "sizes": [
-                            14,
-                            14
-                          ],
-                          "colors": [
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ],
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ]
-                          ],
-                          "alignment": [
-                            "center"
-                          ]
-                        },
-                        "left": 0,
-                        "top": 0,
-                        "right": 0,
-                        "bottom": 0,
-                        "transform": {
-                          "xx": 1,
-                          "xy": 0,
-                          "yx": 0,
-                          "yy": 1,
-                          "tx": 845,
-                          "ty": 771
-                        }
-                      },
-                      "image": {}
-                    },
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "Rounded Rectangle 40 copy",
-                      "left": 728,
-                      "right": 959,
-                      "top": 745,
-                      "bottom": 787,
-                      "height": 42,
-                      "width": 231,
-                      "mask": {
-                        "top": 745,
-                        "left": 728,
-                        "bottom": 787,
-                        "right": 959,
-                        "width": 231,
-                        "height": 42,
-                        "defaultColor": 0,
-                        "relative": false,
-                        "disabled": false,
-                        "invert": false
-                      },
-                      "image": {}
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
+                  "type": "layer",
                   "visible": true,
                   "opacity": 1,
                   "blendingMode": "normal",
-                  "name": "_normal",
-                  "left": 728,
-                  "right": 959,
-                  "top": 745,
-                  "bottom": 787,
-                  "height": 42,
-                  "width": 231,
-                  "children": [
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "취소",
-                      "left": 832,
-                      "right": 858,
-                      "top": 759,
-                      "bottom": 772,
-                      "height": 13,
-                      "width": 26,
-                      "mask": {},
-                      "text": {
-                        "value": "취소",
-                        "font": {
-                          "name": "SpoqaHanSans-Regular",
-                          "sizes": [
-                            14,
-                            14
-                          ],
-                          "colors": [
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ],
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ]
-                          ],
-                          "alignment": [
-                            "center"
-                          ]
-                        },
-                        "left": 0,
-                        "top": 0,
-                        "right": 0,
-                        "bottom": 0,
-                        "transform": {
-                          "xx": 1,
-                          "xy": 0,
-                          "yx": 0,
-                          "yy": 1,
-                          "tx": 845,
-                          "ty": 771
-                        }
-                      },
-                      "image": {}
+                  "name": "취소",
+                  "left": 832,
+                  "right": 858,
+                  "top": 816,
+                  "bottom": 829,
+                  "height": 13,
+                  "width": 26,
+                  "mask": {},
+                  "text": {
+                    "value": "취소",
+                    "font": {
+                      "name": "SpoqaHanSans-Regular",
+                      "sizes": [
+                        14,
+                        14
+                      ],
+                      "colors": [
+                        [
+                          112,
+                          112,
+                          112,
+                          255
+                        ],
+                        [
+                          112,
+                          112,
+                          112,
+                          255
+                        ]
+                      ],
+                      "alignment": [
+                        "center"
+                      ]
                     },
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "Rounded Rectangle 40 copy",
-                      "left": 728,
-                      "right": 959,
-                      "top": 745,
-                      "bottom": 787,
-                      "height": 42,
-                      "width": 231,
-                      "mask": {
-                        "top": 745,
-                        "left": 728,
-                        "bottom": 787,
-                        "right": 959,
-                        "width": 231,
-                        "height": 42,
-                        "defaultColor": 0,
-                        "relative": false,
-                        "disabled": false,
-                        "invert": false
-                      },
-                      "image": {}
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "transform": {
+                      "xx": 1,
+                      "xy": 0,
+                      "yx": 0,
+                      "yy": 1,
+                      "tx": 845,
+                      "ty": 828
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "visible": true,
-              "opacity": 1,
-              "blendingMode": "normal",
-              "name": "btn_ok",
-              "left": 959,
-              "right": 1190,
-              "top": 745,
-              "bottom": 787,
-              "height": 42,
-              "width": 231,
-              "children": [
-                {
-                  "type": "group",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "_disable",
-                  "left": 959,
-                  "right": 1190,
-                  "top": 745,
-                  "bottom": 787,
-                  "height": 42,
-                  "width": 231,
-                  "children": [
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "워크보드 만들기",
-                      "left": 1029,
-                      "right": 1121,
-                      "top": 759,
-                      "bottom": 772,
-                      "height": 13,
-                      "width": 92,
-                      "mask": {},
-                      "text": {
-                        "value": "워크보드 만들기",
-                        "font": {
-                          "name": "SpoqaHanSans-Regular",
-                          "sizes": [
-                            14,
-                            14
-                          ],
-                          "colors": [
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ],
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ]
-                          ],
-                          "alignment": [
-                            "center"
-                          ]
-                        },
-                        "left": 0,
-                        "top": 0,
-                        "right": 0,
-                        "bottom": 0,
-                        "transform": {
-                          "xx": 1,
-                          "xy": 0,
-                          "yx": 0,
-                          "yy": 1,
-                          "tx": 1076,
-                          "ty": 771
-                        }
-                      },
-                      "image": {}
-                    },
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "Rounded Rectangle 40",
-                      "left": 959,
-                      "right": 1190,
-                      "top": 745,
-                      "bottom": 787,
-                      "height": 42,
-                      "width": 231,
-                      "mask": {
-                        "top": 745,
-                        "left": 959,
-                        "bottom": 787,
-                        "right": 1190,
-                        "width": 231,
-                        "height": 42,
-                        "defaultColor": 0,
-                        "relative": false,
-                        "disabled": false,
-                        "invert": false
-                      },
-                      "image": {}
-                    }
-                  ]
+                  },
+                  "image": {}
                 },
                 {
-                  "type": "group",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "_hover",
-                  "left": 959,
-                  "right": 1190,
-                  "top": 745,
-                  "bottom": 787,
-                  "height": 42,
-                  "width": 231,
-                  "children": [
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "워크보드 만들기",
-                      "left": 1029,
-                      "right": 1121,
-                      "top": 759,
-                      "bottom": 772,
-                      "height": 13,
-                      "width": 92,
-                      "mask": {},
-                      "text": {
-                        "value": "워크보드 만들기",
-                        "font": {
-                          "name": "SpoqaHanSans-Regular",
-                          "sizes": [
-                            14,
-                            14
-                          ],
-                          "colors": [
-                            [
-                              255,
-                              255,
-                              255,
-                              255
-                            ],
-                            [
-                              255,
-                              255,
-                              255,
-                              255
-                            ]
-                          ],
-                          "alignment": [
-                            "center"
-                          ]
-                        },
-                        "left": 0,
-                        "top": 0,
-                        "right": 0,
-                        "bottom": 0,
-                        "transform": {
-                          "xx": 1,
-                          "xy": 0,
-                          "yx": 0,
-                          "yy": 1,
-                          "tx": 1076,
-                          "ty": 771
-                        }
-                      },
-                      "image": {}
-                    },
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "Rounded Rectangle 40",
-                      "left": 959,
-                      "right": 1190,
-                      "top": 745,
-                      "bottom": 787,
-                      "height": 42,
-                      "width": 231,
-                      "mask": {
-                        "top": 745,
-                        "left": 959,
-                        "bottom": 787,
-                        "right": 1190,
-                        "width": 231,
-                        "height": 42,
-                        "defaultColor": 0,
-                        "relative": false,
-                        "disabled": false,
-                        "invert": false
-                      },
-                      "image": {}
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
+                  "type": "layer",
                   "visible": true,
                   "opacity": 1,
                   "blendingMode": "normal",
-                  "name": "_active",
-                  "left": 959,
-                  "right": 1190,
-                  "top": 745,
-                  "bottom": 787,
+                  "name": "Rounded Rectangle 40 copy",
+                  "left": 728,
+                  "right": 959,
+                  "top": 802,
+                  "bottom": 844,
                   "height": 42,
                   "width": 231,
-                  "children": [
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "워크보드 만들기",
-                      "left": 1029,
-                      "right": 1121,
-                      "top": 759,
-                      "bottom": 772,
-                      "height": 13,
-                      "width": 92,
-                      "mask": {},
-                      "text": {
-                        "value": "워크보드 만들기",
-                        "font": {
-                          "name": "SpoqaHanSans-Regular",
-                          "sizes": [
-                            14,
-                            14
-                          ],
-                          "colors": [
-                            [
-                              255,
-                              255,
-                              255,
-                              255
-                            ],
-                            [
-                              255,
-                              255,
-                              255,
-                              255
-                            ]
-                          ],
-                          "alignment": [
-                            "center"
-                          ]
-                        },
-                        "left": 0,
-                        "top": 0,
-                        "right": 0,
-                        "bottom": 0,
-                        "transform": {
-                          "xx": 1,
-                          "xy": 0,
-                          "yx": 0,
-                          "yy": 1,
-                          "tx": 1076,
-                          "ty": 771
-                        }
-                      },
-                      "image": {}
-                    },
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "Rounded Rectangle 40",
-                      "left": 959,
-                      "right": 1190,
-                      "top": 745,
-                      "bottom": 787,
-                      "height": 42,
-                      "width": 231,
-                      "mask": {
-                        "top": 745,
-                        "left": 959,
-                        "bottom": 787,
-                        "right": 1190,
-                        "width": 231,
-                        "height": 42,
-                        "defaultColor": 0,
-                        "relative": false,
-                        "disabled": false,
-                        "invert": false
-                      },
-                      "image": {}
-                    }
-                  ]
+                  "mask": {
+                    "top": 802,
+                    "left": 728,
+                    "bottom": 844,
+                    "right": 959,
+                    "width": 231,
+                    "height": 42,
+                    "defaultColor": 0,
+                    "relative": false,
+                    "disabled": false,
+                    "invert": false
+                  },
+                  "image": {}
                 }
               ]
             }
@@ -2233,66 +2675,59 @@ Drop here
           "visible": true,
           "opacity": 1,
           "blendingMode": "normal",
-          "name": "01 page",
-          "left": 518,
-          "right": 1402,
-          "top": 301,
-          "bottom": 818,
-          "height": 517,
-          "width": 884,
+          "name": "btn_ok",
+          "left": 959,
+          "right": 1190,
+          "top": 802,
+          "bottom": 844,
+          "height": 42,
+          "width": 231,
           "children": [
             {
               "type": "group",
-              "visible": true,
+              "visible": false,
               "opacity": 1,
               "blendingMode": "normal",
-              "name": "switch",
-              "left": 518,
-              "right": 1402,
-              "top": 301,
-              "bottom": 339,
-              "height": 38,
-              "width": 884,
+              "name": "_disable",
+              "left": 959,
+              "right": 1190,
+              "top": 802,
+              "bottom": 844,
+              "height": 42,
+              "width": 231,
               "children": [
                 {
                   "type": "layer",
                   "visible": true,
                   "opacity": 1,
                   "blendingMode": "normal",
-                  "name": "페이지            워크보드",
-                  "left": 899,
-                  "right": 1020,
-                  "top": 301,
-                  "bottom": 315,
-                  "height": 14,
-                  "width": 121,
+                  "name": "저장",
+                  "left": 1063,
+                  "right": 1089,
+                  "top": 816,
+                  "bottom": 829,
+                  "height": 13,
+                  "width": 26,
                   "mask": {},
                   "text": {
-                    "value": "페이지            워크보드",
+                    "value": "저장",
                     "font": {
-                      "name": "SpoqaHanSans-Bold",
+                      "name": "SpoqaHanSans-Regular",
                       "sizes": [
-                        14,
                         14,
                         14
                       ],
                       "colors": [
                         [
-                          68,
-                          68,
-                          68,
+                          112,
+                          112,
+                          112,
                           255
                         ],
                         [
-                          68,
-                          68,
-                          68,
-                          255
-                        ],
-                        [
-                          68,
-                          68,
-                          68,
+                          112,
+                          112,
+                          112,
                           255
                         ]
                       ],
@@ -2309,8 +2744,8 @@ Drop here
                       "xy": 0,
                       "yx": 0,
                       "yy": 1,
-                      "tx": 959.90234375,
-                      "ty": 312.984375
+                      "tx": 1076,
+                      "ty": 828
                     }
                   },
                   "image": {}
@@ -2320,2011 +2755,216 @@ Drop here
                   "visible": true,
                   "opacity": 1,
                   "blendingMode": "normal",
-                  "name": "active",
-                  "left": 899,
-                  "right": 939,
-                  "top": 332,
-                  "bottom": 339,
-                  "height": 7,
-                  "width": 40,
-                  "mask": {
-                    "top": 332,
-                    "left": 899,
-                    "bottom": 339,
-                    "right": 939,
-                    "width": 40,
-                    "height": 7,
-                    "defaultColor": 0,
-                    "relative": false,
-                    "disabled": false,
-                    "invert": false
-                  },
-                  "image": {}
-                },
-                {
-                  "type": "layer",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "divider copy",
-                  "left": 518,
-                  "right": 1402,
-                  "top": 334,
-                  "bottom": 339,
-                  "height": 5,
-                  "width": 884,
-                  "mask": {
-                    "top": 334,
-                    "left": 518,
-                    "bottom": 339,
-                    "right": 1402,
-                    "width": 884,
-                    "height": 5,
-                    "defaultColor": 0,
-                    "relative": false,
-                    "disabled": false,
-                    "invert": false
-                  },
-                  "image": {}
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "visible": true,
-              "opacity": 1,
-              "blendingMode": "normal",
-              "name": "내용입력",
-              "left": 520,
-              "right": 1400,
-              "top": 367,
-              "bottom": 631,
-              "height": 264,
-              "width": 880,
-              "children": [
-                {
-                  "type": "layer",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "입력 후 상태입니다.  워크북과 동일합니다. 글자간격 -25 줄간격 28 총 8줄이 표시되며 그 이상은 영역 내 ",
-                  "left": 520,
-                  "right": 1400,
-                  "top": 420,
-                  "bottom": 631,
-                  "height": 211,
-                  "width": 880,
-                  "mask": {},
-                  "text": {
-                    "value": "입력 후 상태입니다.  워크북과 동일합니다.\r글자간격 -25 줄간격 28\r총 8줄이 표시되며 그 이상은 영역 내 스크롤이 생깁니다.\r국가는 지역간의 균형있는 발전을 위하여 지역경제를 육성할 의무를 진다. 정당은 법률이 정하는 바에 의하여 국가의 보호를 받으며, 국가는 법 률이 정하는 바에 의하여 정당운영에 필요한 자금을 보조할 수 있다. 국가는 국민 모두의 생산 및 생활의 기반이 되는 국토의 효율적이고 균형있 는 이용·개발과 보전을 위하여 법률이 정하는 바에 의하여 그에 관한 필요한 제한과 의무를 과할 수 있다.국가는 지역간의 균형있는 발전을 위하 여 지역경제를 육성할 의무를 진다. 정당은 법률이 정하는 바에 의하여 국가의 보호를 받으며, 국가는 법률이 정하는 바에 의하여 정당운영에 필 요한 자금을 보조할 수 있다. 국가는 국민 모두의 생산 및 생활의 기반이 되는 국토의 효율적이고 균형있는 이용·개발과 보전을 위하여 법률이 정하는 바에 의하여 그에 관한 필요한 제한과 의무를 과할 수 있다.",
-                    "font": {
-                      "name": "SpoqaHanSans-Regular",
-                      "sizes": [
-                        16,
-                        16
-                      ],
-                      "colors": [
-                        [
-                          111,
-                          111,
-                          111,
-                          255
-                        ],
-                        [
-                          111,
-                          111,
-                          111,
-                          255
-                        ]
-                      ],
-                      "alignment": [
-                        "justify",
-                        "justify",
-                        "justify",
-                        "justify"
-                      ]
-                    },
-                    "left": 0,
-                    "top": 0,
-                    "right": 0,
-                    "bottom": 0,
-                    "transform": {
-                      "xx": 1,
-                      "xy": 0,
-                      "yx": 0,
-                      "yy": 1,
-                      "tx": 520,
-                      "ty": 421
-                    }
-                  },
-                  "image": {}
-                },
-                {
-                  "type": "layer",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "페이지 설명을 입력해 주세요.",
-                  "left": 520,
-                  "right": 705,
-                  "top": 420,
-                  "bottom": 436,
-                  "height": 16,
-                  "width": 185,
-                  "mask": {},
-                  "text": {
-                    "value": "페이지 설명을 입력해 주세요.",
-                    "font": {
-                      "name": "SpoqaHanSans-Regular",
-                      "sizes": [
-                        16,
-                        16
-                      ],
-                      "colors": [
-                        [
-                          175,
-                          179,
-                          183,
-                          255
-                        ],
-                        [
-                          175,
-                          179,
-                          183,
-                          255
-                        ]
-                      ],
-                      "alignment": [
-                        "left"
-                      ]
-                    },
-                    "left": 0,
-                    "top": 0,
-                    "right": 0,
-                    "bottom": 0,
-                    "transform": {
-                      "xx": 1,
-                      "xy": 0,
-                      "yx": 0,
-                      "yy": 1,
-                      "tx": 520,
-                      "ty": 434
-                    }
-                  },
-                  "image": {}
-                },
-                {
-                  "type": "layer",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "새로운 페이지 제목을 입력하세요.",
-                  "left": 521,
-                  "right": 892,
-                  "top": 367,
-                  "bottom": 392,
-                  "height": 25,
-                  "width": 371,
-                  "mask": {},
-                  "text": {
-                    "value": "새로운 페이지 제목을 입력하세요.",
-                    "font": {
-                      "name": "SpoqaHanSans-Thin",
-                      "sizes": [
-                        28,
-                        28
-                      ],
-                      "colors": [
-                        [
-                          34,
-                          34,
-                          34,
-                          255
-                        ],
-                        [
-                          34,
-                          34,
-                          34,
-                          255
-                        ]
-                      ],
-                      "alignment": [
-                        "left"
-                      ]
-                    },
-                    "left": 0,
-                    "top": 0,
-                    "right": 0,
-                    "bottom": 0,
-                    "transform": {
-                      "xx": 1,
-                      "xy": 0,
-                      "yx": 0,
-                      "yy": 1,
-                      "tx": 520,
-                      "ty": 390
-                    }
-                  },
-                  "image": {}
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "visible": true,
-              "opacity": 1,
-              "blendingMode": "normal",
-              "name": "tag",
-              "left": 521,
-              "right": 1389,
-              "top": 657,
-              "bottom": 818,
-              "height": 161,
-              "width": 868,
-              "children": [
-                {
-                  "type": "group",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "작성중",
-                  "left": 542,
-                  "right": 1389,
-                  "top": 657,
-                  "bottom": 818,
-                  "height": 161,
-                  "width": 847,
-                  "children": [
-                    {
-                      "type": "group",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "2줄로 넘어간 경우",
-                      "left": 542,
-                      "right": 725,
-                      "top": 687,
-                      "bottom": 818,
-                      "height": 131,
-                      "width": 183,
-                      "children": [
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새",
-                          "left": 598,
-                          "right": 608,
-                          "top": 694,
-                          "bottom": 705,
-                          "height": 11,
-                          "width": 10,
-                          "mask": {},
-                          "text": {
-                            "value": "새",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 598,
-                              "ty": 704
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 548,
-                          "right": 583,
-                          "top": 694,
-                          "bottom": 705,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 548,
-                              "ty": 704
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "group",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "active",
-                          "left": 592,
-                          "right": 725,
-                          "top": 706,
-                          "bottom": 818,
-                          "height": 112,
-                          "width": 133,
-                          "children": [
-                            {
-                              "type": "group",
-                              "visible": true,
-                              "opacity": 1,
-                              "blendingMode": "normal",
-                              "name": "select",
-                              "left": 592,
-                              "right": 725,
-                              "top": 706,
-                              "bottom": 818,
-                              "height": 112,
-                              "width": 133,
-                              "children": [
-                                {
-                                  "type": "layer",
-                                  "visible": true,
-                                  "opacity": 1,
-                                  "blendingMode": "normal",
-                                  "name": "새폴더 새순 새장 새우",
-                                  "left": 603,
-                                  "right": 638,
-                                  "top": 721,
-                                  "bottom": 805,
-                                  "height": 84,
-                                  "width": 35,
-                                  "mask": {},
-                                  "text": {
-                                    "value": "새폴더\r새순\r새장\r새우",
-                                    "font": {
-                                      "name": "SpoqaHanSans-Regular",
-                                      "sizes": [
-                                        13,
-                                        13,
-                                        13,
-                                        13
-                                      ],
-                                      "colors": [
-                                        [
-                                          68,
-                                          68,
-                                          68,
-                                          255
-                                        ],
-                                        [
-                                          68,
-                                          68,
-                                          68,
-                                          255
-                                        ],
-                                        [
-                                          255,
-                                          255,
-                                          255,
-                                          255
-                                        ],
-                                        [
-                                          68,
-                                          68,
-                                          68,
-                                          255
-                                        ]
-                                      ],
-                                      "alignment": [
-                                        "left",
-                                        "left",
-                                        "left",
-                                        "left"
-                                      ]
-                                    },
-                                    "left": 0,
-                                    "top": 0,
-                                    "right": 0,
-                                    "bottom": 0,
-                                    "transform": {
-                                      "xx": 1,
-                                      "xy": 0,
-                                      "yx": 0,
-                                      "yy": 1,
-                                      "tx": 603,
-                                      "ty": 732
-                                    }
-                                  },
-                                  "image": {}
-                                },
-                                {
-                                  "type": "layer",
-                                  "visible": true,
-                                  "opacity": 1,
-                                  "blendingMode": "normal",
-                                  "name": "_hover",
-                                  "left": 593,
-                                  "right": 724,
-                                  "top": 738,
-                                  "bottom": 765,
-                                  "height": 27,
-                                  "width": 131,
-                                  "mask": {
-                                    "top": 738,
-                                    "left": 593,
-                                    "bottom": 765,
-                                    "right": 724,
-                                    "width": 131,
-                                    "height": 27,
-                                    "defaultColor": 0,
-                                    "relative": false,
-                                    "disabled": false,
-                                    "invert": false
-                                  },
-                                  "image": {}
-                                },
-                                {
-                                  "type": "layer",
-                                  "visible": true,
-                                  "opacity": 1,
-                                  "blendingMode": "normal",
-                                  "name": "bg",
-                                  "left": 592,
-                                  "right": 725,
-                                  "top": 706,
-                                  "bottom": 818,
-                                  "height": 112,
-                                  "width": 133,
-                                  "mask": {
-                                    "top": 706,
-                                    "left": 592,
-                                    "bottom": 818,
-                                    "right": 725,
-                                    "width": 133,
-                                    "height": 112,
-                                    "defaultColor": 0,
-                                    "relative": false,
-                                    "disabled": false,
-                                    "invert": false
-                                  },
-                                  "image": {}
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 542,
-                          "right": 616,
-                          "top": 687,
-                          "bottom": 711,
-                          "height": 24,
-                          "width": 74,
-                          "mask": {
-                            "top": 687,
-                            "left": 542,
-                            "bottom": 711,
-                            "right": 616,
-                            "width": 74,
-                            "height": 24,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "1",
-                      "left": 542,
-                      "right": 1389,
-                      "top": 657,
-                      "bottom": 682,
-                      "height": 25,
-                      "width": 847,
-                      "children": [
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의    ",
-                          "left": 698,
-                          "right": 1381,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 683,
-                          "mask": {},
-                          "text": {
-                            "value": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의      금액을      증가하거나      새 비목을      설치할      없다      법관은      헌법과       ",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 698,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 692,
-                          "right": 1389,
-                          "top": 657,
-                          "bottom": 682,
-                          "height": 25,
-                          "width": 697,
-                          "mask": {
-                            "top": 658,
-                            "left": 692,
-                            "bottom": 681,
-                            "right": 1389,
-                            "width": 697,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 648,
-                          "right": 683,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 648,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 642,
-                          "right": 691,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 49,
-                          "mask": {
-                            "top": 658,
-                            "left": 642,
-                            "bottom": 681,
-                            "right": 691,
-                            "width": 49,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 598,
-                          "right": 633,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 598,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 591,
-                          "right": 641,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 50,
-                          "mask": {
-                            "top": 658,
-                            "left": 591,
-                            "bottom": 681,
-                            "right": 641,
-                            "width": 50,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 548,
-                          "right": 583,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 548,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 542,
-                          "right": 591,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 49,
-                          "mask": {
-                            "top": 658,
-                            "left": 542,
-                            "bottom": 681,
-                            "right": 591,
-                            "width": 49,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "활성화",
-                  "left": 542,
-                  "right": 1389,
-                  "top": 658,
-                  "bottom": 711,
-                  "height": 53,
-                  "width": 847,
-                  "children": [
-                    {
-                      "type": "group",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "+",
-                      "left": 591,
-                      "right": 616,
-                      "top": 687,
-                      "bottom": 711,
-                      "height": 24,
-                      "width": 25,
-                      "children": [
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 26 copy",
-                          "left": 598,
-                          "right": 609,
-                          "top": 693,
-                          "bottom": 706,
-                          "height": 13,
-                          "width": 11,
-                          "mask": {
-                            "top": 693,
-                            "left": 598,
-                            "bottom": 706,
-                            "right": 609,
-                            "width": 11,
-                            "height": 13,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 591,
-                          "right": 616,
-                          "top": 687,
-                          "bottom": 711,
-                          "height": 24,
-                          "width": 25,
-                          "mask": {
-                            "top": 687,
-                            "left": 591,
-                            "bottom": 711,
-                            "right": 616,
-                            "width": 25,
-                            "height": 24,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "selected",
-                      "left": 542,
-                      "right": 591,
-                      "top": 687,
-                      "bottom": 711,
-                      "height": 24,
-                      "width": 49,
-                      "children": [
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 548,
-                          "right": 583,
-                          "top": 694,
-                          "bottom": 705,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  255,
-                                  255,
-                                  255,
-                                  255
-                                ],
-                                [
-                                  255,
-                                  255,
-                                  255,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 548,
-                              "ty": 704
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 542,
-                          "right": 591,
-                          "top": 687,
-                          "bottom": 711,
-                          "height": 24,
-                          "width": 49,
-                          "mask": {
-                            "top": 687,
-                            "left": 542,
-                            "bottom": 711,
-                            "right": 591,
-                            "width": 49,
-                            "height": 24,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "1",
-                      "left": 542,
-                      "right": 1389,
-                      "top": 658,
-                      "bottom": 681,
-                      "height": 23,
-                      "width": 847,
-                      "children": [
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의    ",
-                          "left": 698,
-                          "right": 1381,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 683,
-                          "mask": {},
-                          "text": {
-                            "value": "국회는      정부의      동의없이      정부가      제출한      지출예산      각항의      금액을      증가하거나      새 비목을      설치할      없다      법관은      헌법과       ",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 698,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 692,
-                          "right": 1389,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 697,
-                          "mask": {
-                            "top": 658,
-                            "left": 692,
-                            "bottom": 681,
-                            "right": 1389,
-                            "width": 697,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 648,
-                          "right": 683,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 648,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 642,
-                          "right": 691,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 49,
-                          "mask": {
-                            "top": 658,
-                            "left": 642,
-                            "bottom": 681,
-                            "right": 691,
-                            "width": 49,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 598,
-                          "right": 633,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 598,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 591,
-                          "right": 641,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 50,
-                          "mask": {
-                            "top": 658,
-                            "left": 591,
-                            "bottom": 681,
-                            "right": 641,
-                            "width": 50,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "새 태그",
-                          "left": 548,
-                          "right": 583,
-                          "top": 664,
-                          "bottom": 675,
-                          "height": 11,
-                          "width": 35,
-                          "mask": {},
-                          "text": {
-                            "value": "새 태그",
-                            "font": {
-                              "name": "SpoqaHanSans-Regular",
-                              "sizes": [
-                                12,
-                                12
-                              ],
-                              "colors": [
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ],
-                                [
-                                  82,
-                                  97,
-                                  105,
-                                  255
-                                ]
-                              ],
-                              "alignment": [
-                                "left"
-                              ]
-                            },
-                            "left": 0,
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "transform": {
-                              "xx": 1,
-                              "xy": 0,
-                              "yx": 0,
-                              "yy": 1,
-                              "tx": 548,
-                              "ty": 674
-                            }
-                          },
-                          "image": {}
-                        },
-                        {
-                          "type": "layer",
-                          "visible": true,
-                          "opacity": 1,
-                          "blendingMode": "normal",
-                          "name": "Rounded Rectangle 40",
-                          "left": 542,
-                          "right": 591,
-                          "top": 658,
-                          "bottom": 681,
-                          "height": 23,
-                          "width": 49,
-                          "mask": {
-                            "top": 658,
-                            "left": 542,
-                            "bottom": 681,
-                            "right": 591,
-                            "width": 49,
-                            "height": 23,
-                            "defaultColor": 0,
-                            "relative": false,
-                            "disabled": false,
-                            "invert": false
-                          },
-                          "image": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "default",
-                  "left": 543,
-                  "right": 612,
-                  "top": 662,
-                  "bottom": 675,
-                  "height": 13,
-                  "width": 69,
-                  "children": [
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "새 태그 추가",
-                      "left": 543,
-                      "right": 612,
-                      "top": 662,
-                      "bottom": 675,
-                      "height": 13,
-                      "width": 69,
-                      "mask": {},
-                      "text": {
-                        "value": "새 태그 추가",
-                        "font": {
-                          "name": "SpoqaHanSans-Regular",
-                          "sizes": [
-                            14,
-                            14
-                          ],
-                          "colors": [
-                            [
-                              156,
-                              156,
-                              156,
-                              255
-                            ],
-                            [
-                              156,
-                              156,
-                              156,
-                              255
-                            ]
-                          ],
-                          "alignment": [
-                            "left"
-                          ]
-                        },
-                        "left": 0,
-                        "top": 0,
-                        "right": 0,
-                        "bottom": 0,
-                        "transform": {
-                          "xx": 1,
-                          "xy": 0,
-                          "yx": 0,
-                          "yy": 1,
-                          "tx": 543,
-                          "ty": 674
-                        }
-                      },
-                      "image": {}
-                    }
-                  ]
-                },
-                {
-                  "type": "layer",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "ic_tag",
-                  "left": 521,
-                  "right": 535,
-                  "top": 660,
-                  "bottom": 677,
-                  "height": 17,
-                  "width": 14,
-                  "mask": {
-                    "top": 660,
-                    "left": 521,
-                    "bottom": 677,
-                    "right": 535,
-                    "width": 14,
-                    "height": 17,
-                    "defaultColor": 0,
-                    "relative": false,
-                    "disabled": false,
-                    "invert": false
-                  },
-                  "image": {}
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "visible": true,
-              "opacity": 1,
-              "blendingMode": "normal",
-              "name": "btn_prev",
-              "left": 728,
-              "right": 959,
-              "top": 745,
-              "bottom": 787,
-              "height": 42,
-              "width": 231,
-              "children": [
-                {
-                  "type": "group",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "_hover",
-                  "left": 728,
-                  "right": 959,
-                  "top": 745,
-                  "bottom": 787,
+                  "name": "Rounded Rectangle 40",
+                  "left": 959,
+                  "right": 1190,
+                  "top": 802,
+                  "bottom": 844,
                   "height": 42,
                   "width": 231,
-                  "children": [
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "취소",
-                      "left": 832,
-                      "right": 858,
-                      "top": 759,
-                      "bottom": 772,
-                      "height": 13,
-                      "width": 26,
-                      "mask": {},
-                      "text": {
-                        "value": "취소",
-                        "font": {
-                          "name": "SpoqaHanSans-Regular",
-                          "sizes": [
-                            14,
-                            14
-                          ],
-                          "colors": [
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ],
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ]
-                          ],
-                          "alignment": [
-                            "center"
-                          ]
-                        },
-                        "left": 0,
-                        "top": 0,
-                        "right": 0,
-                        "bottom": 0,
-                        "transform": {
-                          "xx": 1,
-                          "xy": 0,
-                          "yx": 0,
-                          "yy": 1,
-                          "tx": 845,
-                          "ty": 771
-                        }
-                      },
-                      "image": {}
-                    },
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "Rounded Rectangle 40 copy",
-                      "left": 728,
-                      "right": 959,
-                      "top": 745,
-                      "bottom": 787,
-                      "height": 42,
-                      "width": 231,
-                      "mask": {
-                        "top": 745,
-                        "left": 728,
-                        "bottom": 787,
-                        "right": 959,
-                        "width": 231,
-                        "height": 42,
-                        "defaultColor": 0,
-                        "relative": false,
-                        "disabled": false,
-                        "invert": false
-                      },
-                      "image": {}
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "_normal",
-                  "left": 728,
-                  "right": 959,
-                  "top": 745,
-                  "bottom": 787,
-                  "height": 42,
-                  "width": 231,
-                  "children": [
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "취소",
-                      "left": 832,
-                      "right": 858,
-                      "top": 759,
-                      "bottom": 772,
-                      "height": 13,
-                      "width": 26,
-                      "mask": {},
-                      "text": {
-                        "value": "취소",
-                        "font": {
-                          "name": "SpoqaHanSans-Regular",
-                          "sizes": [
-                            14,
-                            14
-                          ],
-                          "colors": [
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ],
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ]
-                          ],
-                          "alignment": [
-                            "center"
-                          ]
-                        },
-                        "left": 0,
-                        "top": 0,
-                        "right": 0,
-                        "bottom": 0,
-                        "transform": {
-                          "xx": 1,
-                          "xy": 0,
-                          "yx": 0,
-                          "yy": 1,
-                          "tx": 845,
-                          "ty": 771
-                        }
-                      },
-                      "image": {}
-                    },
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "Rounded Rectangle 40 copy",
-                      "left": 728,
-                      "right": 959,
-                      "top": 745,
-                      "bottom": 787,
-                      "height": 42,
-                      "width": 231,
-                      "mask": {
-                        "top": 745,
-                        "left": 728,
-                        "bottom": 787,
-                        "right": 959,
-                        "width": 231,
-                        "height": 42,
-                        "defaultColor": 0,
-                        "relative": false,
-                        "disabled": false,
-                        "invert": false
-                      },
-                      "image": {}
-                    }
-                  ]
+                  "mask": {
+                    "top": 802,
+                    "left": 959,
+                    "bottom": 844,
+                    "right": 1190,
+                    "width": 231,
+                    "height": 42,
+                    "defaultColor": 0,
+                    "relative": false,
+                    "disabled": false,
+                    "invert": false
+                  },
+                  "image": {}
                 }
               ]
             },
             {
               "type": "group",
-              "visible": true,
+              "visible": false,
               "opacity": 1,
               "blendingMode": "normal",
-              "name": "btn_ok",
+              "name": "_hover",
               "left": 959,
               "right": 1190,
-              "top": 745,
-              "bottom": 787,
+              "top": 802,
+              "bottom": 844,
               "height": 42,
               "width": 231,
               "children": [
                 {
-                  "type": "group",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "_disable",
-                  "left": 959,
-                  "right": 1190,
-                  "top": 745,
-                  "bottom": 787,
-                  "height": 42,
-                  "width": 231,
-                  "children": [
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "페이지 만들기",
-                      "left": 1036,
-                      "right": 1115,
-                      "top": 759,
-                      "bottom": 772,
-                      "height": 13,
-                      "width": 79,
-                      "mask": {},
-                      "text": {
-                        "value": "페이지 만들기",
-                        "font": {
-                          "name": "SpoqaHanSans-Regular",
-                          "sizes": [
-                            14,
-                            14
-                          ],
-                          "colors": [
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ],
-                            [
-                              112,
-                              112,
-                              112,
-                              255
-                            ]
-                          ],
-                          "alignment": [
-                            "center"
-                          ]
-                        },
-                        "left": 0,
-                        "top": 0,
-                        "right": 0,
-                        "bottom": 0,
-                        "transform": {
-                          "xx": 1,
-                          "xy": 0,
-                          "yx": 0,
-                          "yy": 1,
-                          "tx": 1076,
-                          "ty": 771
-                        }
-                      },
-                      "image": {}
-                    },
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "Rounded Rectangle 40",
-                      "left": 959,
-                      "right": 1190,
-                      "top": 745,
-                      "bottom": 787,
-                      "height": 42,
-                      "width": 231,
-                      "mask": {
-                        "top": 745,
-                        "left": 959,
-                        "bottom": 787,
-                        "right": 1190,
-                        "width": 231,
-                        "height": 42,
-                        "defaultColor": 0,
-                        "relative": false,
-                        "disabled": false,
-                        "invert": false
-                      },
-                      "image": {}
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "visible": false,
-                  "opacity": 1,
-                  "blendingMode": "normal",
-                  "name": "_hover",
-                  "left": 959,
-                  "right": 1190,
-                  "top": 745,
-                  "bottom": 787,
-                  "height": 42,
-                  "width": 231,
-                  "children": [
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "페이지 만들기",
-                      "left": 1036,
-                      "right": 1115,
-                      "top": 759,
-                      "bottom": 772,
-                      "height": 13,
-                      "width": 79,
-                      "mask": {},
-                      "text": {
-                        "value": "페이지 만들기",
-                        "font": {
-                          "name": "SpoqaHanSans-Regular",
-                          "sizes": [
-                            14,
-                            14
-                          ],
-                          "colors": [
-                            [
-                              255,
-                              255,
-                              255,
-                              255
-                            ],
-                            [
-                              255,
-                              255,
-                              255,
-                              255
-                            ]
-                          ],
-                          "alignment": [
-                            "center"
-                          ]
-                        },
-                        "left": 0,
-                        "top": 0,
-                        "right": 0,
-                        "bottom": 0,
-                        "transform": {
-                          "xx": 1,
-                          "xy": 0,
-                          "yx": 0,
-                          "yy": 1,
-                          "tx": 1076,
-                          "ty": 771
-                        }
-                      },
-                      "image": {}
-                    },
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "Rounded Rectangle 40",
-                      "left": 959,
-                      "right": 1190,
-                      "top": 745,
-                      "bottom": 787,
-                      "height": 42,
-                      "width": 231,
-                      "mask": {
-                        "top": 745,
-                        "left": 959,
-                        "bottom": 787,
-                        "right": 1190,
-                        "width": 231,
-                        "height": 42,
-                        "defaultColor": 0,
-                        "relative": false,
-                        "disabled": false,
-                        "invert": false
-                      },
-                      "image": {}
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
+                  "type": "layer",
                   "visible": true,
                   "opacity": 1,
                   "blendingMode": "normal",
-                  "name": "_active",
+                  "name": "저장",
+                  "left": 1063,
+                  "right": 1089,
+                  "top": 816,
+                  "bottom": 829,
+                  "height": 13,
+                  "width": 26,
+                  "mask": {},
+                  "text": {
+                    "value": "저장",
+                    "font": {
+                      "name": "SpoqaHanSans-Regular",
+                      "sizes": [
+                        14,
+                        14
+                      ],
+                      "colors": [
+                        [
+                          255,
+                          255,
+                          255,
+                          255
+                        ],
+                        [
+                          255,
+                          255,
+                          255,
+                          255
+                        ]
+                      ],
+                      "alignment": [
+                        "center"
+                      ]
+                    },
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "transform": {
+                      "xx": 1,
+                      "xy": 0,
+                      "yx": 0,
+                      "yy": 1,
+                      "tx": 1076,
+                      "ty": 828
+                    }
+                  },
+                  "image": {}
+                },
+                {
+                  "type": "layer",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendingMode": "normal",
+                  "name": "Rounded Rectangle 40",
                   "left": 959,
                   "right": 1190,
-                  "top": 745,
-                  "bottom": 787,
+                  "top": 802,
+                  "bottom": 844,
                   "height": 42,
                   "width": 231,
-                  "children": [
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "페이지 만들기",
-                      "left": 1036,
-                      "right": 1115,
-                      "top": 759,
-                      "bottom": 772,
-                      "height": 13,
-                      "width": 79,
-                      "mask": {},
-                      "text": {
-                        "value": "페이지 만들기",
-                        "font": {
-                          "name": "SpoqaHanSans-Regular",
-                          "sizes": [
-                            14,
-                            14
-                          ],
-                          "colors": [
-                            [
-                              255,
-                              255,
-                              255,
-                              255
-                            ],
-                            [
-                              255,
-                              255,
-                              255,
-                              255
-                            ]
-                          ],
-                          "alignment": [
-                            "center"
-                          ]
-                        },
-                        "left": 0,
-                        "top": 0,
-                        "right": 0,
-                        "bottom": 0,
-                        "transform": {
-                          "xx": 1,
-                          "xy": 0,
-                          "yx": 0,
-                          "yy": 1,
-                          "tx": 1076,
-                          "ty": 771
-                        }
-                      },
-                      "image": {}
+                  "mask": {
+                    "top": 802,
+                    "left": 959,
+                    "bottom": 844,
+                    "right": 1190,
+                    "width": 231,
+                    "height": 42,
+                    "defaultColor": 0,
+                    "relative": false,
+                    "disabled": false,
+                    "invert": false
+                  },
+                  "image": {}
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "visible": true,
+              "opacity": 1,
+              "blendingMode": "normal",
+              "name": "_active",
+              "left": 959,
+              "right": 1190,
+              "top": 802,
+              "bottom": 844,
+              "height": 42,
+              "width": 231,
+              "children": [
+                {
+                  "type": "layer",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendingMode": "normal",
+                  "name": "저장",
+                  "left": 1063,
+                  "right": 1089,
+                  "top": 816,
+                  "bottom": 829,
+                  "height": 13,
+                  "width": 26,
+                  "mask": {},
+                  "text": {
+                    "value": "저장",
+                    "font": {
+                      "name": "SpoqaHanSans-Regular",
+                      "sizes": [
+                        14,
+                        14
+                      ],
+                      "colors": [
+                        [
+                          255,
+                          255,
+                          255,
+                          255
+                        ],
+                        [
+                          255,
+                          255,
+                          255,
+                          255
+                        ]
+                      ],
+                      "alignment": [
+                        "center"
+                      ]
                     },
-                    {
-                      "type": "layer",
-                      "visible": true,
-                      "opacity": 1,
-                      "blendingMode": "normal",
-                      "name": "Rounded Rectangle 40",
-                      "left": 959,
-                      "right": 1190,
-                      "top": 745,
-                      "bottom": 787,
-                      "height": 42,
-                      "width": 231,
-                      "mask": {
-                        "top": 745,
-                        "left": 959,
-                        "bottom": 787,
-                        "right": 1190,
-                        "width": 231,
-                        "height": 42,
-                        "defaultColor": 0,
-                        "relative": false,
-                        "disabled": false,
-                        "invert": false
-                      },
-                      "image": {}
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "transform": {
+                      "xx": 1,
+                      "xy": 0,
+                      "yx": 0,
+                      "yy": 1,
+                      "tx": 1076,
+                      "ty": 828
                     }
-                  ]
+                  },
+                  "image": {}
+                },
+                {
+                  "type": "layer",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendingMode": "normal",
+                  "name": "Rounded Rectangle 40",
+                  "left": 959,
+                  "right": 1190,
+                  "top": 802,
+                  "bottom": 844,
+                  "height": 42,
+                  "width": 231,
+                  "mask": {
+                    "top": 802,
+                    "left": 959,
+                    "bottom": 844,
+                    "right": 1190,
+                    "width": 231,
+                    "height": 42,
+                    "defaultColor": 0,
+                    "relative": false,
+                    "disabled": false,
+                    "invert": false
+                  },
+                  "image": {}
                 }
               ]
             }
